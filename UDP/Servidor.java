@@ -22,7 +22,7 @@ public class Servidor {
                 socket.receive(paquete);
     
                 // Iniciar un hilo para cada cliente
-                Thread hiloCliente = new HiloCliente(socket, paquete);
+                Thread hiloCliente = new hiloCliente(socket, paquete);
                 hiloCliente.start();
                 
             }
