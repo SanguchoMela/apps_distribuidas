@@ -5,10 +5,10 @@ public class Servidor {
     public static void main(String[] args) {
         try {
             // Crear una instancia de la implementación de la interfaz
-            interfaz objetoRemoto = new ImplementacionInterfaz();
+            Interfaz objetoRemoto = new ImplementacionInterfaz();
     
             // Crear registro RMI en un puerto especifico
-            Registry registro = LocateRegistry.createRegistry(1234);
+            Registry registro = LocateRegistry.createRegistry(1099);
 
             // Vincular la implementacion remota con un nombre especifico
             registro.rebind("ClienteRemoto", objetoRemoto);
