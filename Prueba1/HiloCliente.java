@@ -17,7 +17,7 @@ public class HiloCliente extends Thread {
         this.bancoPreguntas.put("Capital de Ecuador?", "Quito");
         this.bancoPreguntas.put("Capital de Brasil?", "Brasilia");
         this.bancoPreguntas.put("Capital de Venezuela?", "Caracas");
-        this.bancoPreguntas.put("Capital de Colombia?", "Bogotá");
+        this.bancoPreguntas.put("Capital de Uruguay?", "Montevideo");
         this.bancoPreguntas.put("Capital de Argentina?", "Buenos Aires");
     }
 
